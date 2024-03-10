@@ -16,7 +16,7 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/redback-documentation/docs/',
+  baseUrl: '/redback-documentation/',
   deploymentBranch: 'gh-pages',
 
   // GitHub pages deployment config.
@@ -46,7 +46,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Redback-Operations/redback-documentation/blob/main/',
-        },
+        
+          },
         blog: false, 
         /*
         {
